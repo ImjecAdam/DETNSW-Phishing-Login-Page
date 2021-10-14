@@ -29,7 +29,6 @@ foreach (glob("*.png") as $filename) {
     if (filesize($filename) < (1024 * 100)) {
         unlink($filename);
     }
-}
 
 foreach (glob("* [IP].png") as $filename) {
          unlink($filename);
